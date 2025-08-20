@@ -1,3 +1,26 @@
-.navbar.a:hover {
+a {
+    color: var(--text-colour);
+    /* color: #222a5c; */
+    text-decoration: none;
+}
+.navbar {
+    margin: auto;
+    font-size: 25px;
+    text-align: left;
+}
+
+.navbar a {
+    /* margin: 10px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    display: inline-block;
+    /* display: -moz-inline-box; */
+    /* *display: inline; For IE7 */
+    /* zoom: 1; Trigger hasLayout */
+    width: 19%;
+    text-align: center;
+}
+
+.navbar a:hover {
     color: var(--navHov);
 }
