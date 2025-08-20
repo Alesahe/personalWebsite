@@ -42,4 +42,5 @@ async function getWeather() {
             throw new Error("login button displaying went wrong ;-;");
         };
     })
+    updateWeather();
 }
