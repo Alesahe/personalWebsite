@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/root.css" />
+  <link rel="stylesheet" href="css/clock.css" />
+  <title>confuzzlementation</title>
+  <meta name="description" content="ale's little slice of the internet 💙">
+  <!-- <link rel="manifest" href="manifest.json" /> -->
+  <!-- <link rel="icon" type="image/x-icon" href="images\favicon.png"> -->
+</head>
+
+<body onload="displayDateTime(); getWeather();">
+  <div class="navbar">
+    <a href="/"> clock </a>
+    <a href="/books"> books </a>
+    <a href="/adventures"> adventures </a>
+    <a href="/snails"> snails </a>
+    <a href="/shells"> shells </a>
+  </div>
+  <div class="centreText">
+    <h1 id="time"></h1>
+    <h2 id="date"></h2>
+    <br> <br> <br>
+    <h3 id="textConditions"> [weather forecast] </h3>
+    <h4 id="lastRefresh"> [last refreshed] </h4>
+  </div>
+
+<script type="text/javascript" src="../js/clock.js"></script>
+</body>
+</html>

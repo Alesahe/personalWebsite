@@ -1,0 +1,28 @@
+body {
+    font-family: "Caveat";
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+}
+
+.centreText {
+    text-align: center;
+    margin: auto;
+}
+
+#time {
+    font-size: 200px;
+    line-height: 40%;
+}
+
+#date {
+    font-size: 50px;
+    line-height: 0%;
+}
+
+#textConditions {
+    font-size: 30px;
+}
+
+#lastRefresh {
+    font-size: 18px;
+}
